@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+html {
+	
+    position: relative;
+    min-height: 100%;
+	
+}
+
+body {
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+	font-family: arial;
+	font-family: 12px;
+	margin: 0 0 60px 0;
+	
+}
+
+div#corpo {
+
+	width: 70%;
+	background-color: #ffffff;
+	margin: 10px auto -10px auto;
+	padding: 1px 10px 0px 10px;
+	opacity: 0.8;
+	box-shadow: 1px 1px 10px 1px black;
+	
+}
+
+/*div#corpo {
+
+	width: 70%;
+	background-color: #FFFFFF;
+	margin: 5px auto 0px auto;
+	padding: 1px 10px 5px 10px;
+	opacity: 0.8;
+	box-shadow: -1px 0px 10px rgba(0,0,0,1);
+	
+}*/
+
+nav#menu {
+	
+	display: block;
+	top: 0;
+	width: 100%;
+	
+}
+
+nav#menu ul {
+
+	list-style: none;
+	
+}
+
+nav#menu li {
+	
+	display: inline-block;
+	
+}
+
+nav#menu li:hover {
+	
+	background-color: #DCDCDC;
+	
+}
+
+nav#menu li:active {
+	
+	
+}
+
+p#ab {
+	
+	position: relative;
+	top: 20%;
+	left: 20%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: arial;
+	color: #000000;
+	
+}
+
+p#ac {
+	
+	position: relative;
+	top: 20%;
+	left: 170%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: arial;
+	color: #000000;
+	
+}
+
+a {
+	
+	text-decoration: none;
+	
+}
+
+
+
+h1#title {
+	
+	position: relative;
+	font-family: tw cen mt condensed;
+	font-size: 85px;	
+	color: #20831E;
+	line-height: 50%;
+	
+}
+
+h2#botao {
+	
+	position: relative;
+	line-height: 50%;
+	display: inline;
+	
+}
+
+h3 {
+	
+	text-align: center;
+	
+}
+
+h3#menu {
+	
+	color:red;
+	
+}
+
+button#menu {
+	
+	color: black;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	background-color: #F5F5F5;
+	padding: 20px 100px 20px 100px;
+	margin: 0px 1px 0px 1px;
+	border-radius: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5px;
+	cursor: pointer;
+	
+}
+
+header {
+	
+    width: 100%; 
+    height: 50px; 
+    background-color: #67A75E;
+	box-shadow: 1px 1px 10px 1px black;
+	
+}
+
+footer {
+	
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 30px; 
+    background-color: #67A75E;
+	box-shadow: 1px 1px 10px 1px black;
+	
+}
