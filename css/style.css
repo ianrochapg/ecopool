@@ -57,7 +57,8 @@ body {
 	min-height: calc( 100vh - 104px);
 	width: 100%;
 	margin-top: 104px;
-	background-image: url("../img/manhattan.jpg");
+	/* background-image: url("../img/manhattan.jpg"); */
+	background-image: url("../img/city_loop.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -66,13 +67,13 @@ body {
 
 .left_side {
 	width: 50%;
-	background-color: rgba(0, 0, 0, 0.1);
+	/* background-color: rgba(0, 0, 0, 0.1); */
 	position: relative;
 }
 
 .right_side {
 	width: 50%;
-	background-color: rgba(255, 255, 255, 0.2);
+	/* background-color: rgba(255, 255, 255, 0.2); */
 	position: relative;
 }
 
@@ -227,10 +228,8 @@ header {
 }
 
 footer {
-    position: fixed; 
-    bottom: 0px; 
     width: 100%; 
-    height: 30px; 
-    background-color: #67A75E;
-	box-shadow: 1px 1px 10px 1px black;
+    height: 200px; 
+	background-color: #383838;
+	color: white;
 }
