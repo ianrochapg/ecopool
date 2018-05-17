@@ -147,85 +147,22 @@ header {
     background-color: #f7f7f7;
 }
 
-nav#menu {
-	display: block;
-	top: 0;
-	width: 100%;
-}
-
-nav#menu ul {
-	list-style: none;
-}
-
-nav#menu li {
-	display: inline-block;	
-}
-
-nav#menu li:hover {
-	background-color: #DCDCDC;	
-}
-
-p#ab {
-	position: relative;
-	top: 20%;
-	left: 20%;
-	display: table-cell;
-	vertical-align: middle;
-	font-family: arial;
-	color: #000000;
-}
-
-p#ac {
-	position: relative;
-	top: 20%;
-	left: 170%;
-	display: table-cell;
-	vertical-align: middle;
-	font-family: arial;
-	color: #000000;
+#main_form input,
+#main_form label {
+	width: 80%;
+	margin: 0 10% 30px 10%;
+	font-size: 20px;
+    height: 30px;
 }
 
 a {
 	text-decoration: none;
 }
 
-
-
-h1#title {
-	font-family: tw cen mt condensed;
-	font-size: 70px;	
-	color: #20831E;
-	margin: 0;
-	margin-top: 20px;
-}
-
 h2.reference {
 	position: relative;
 	line-height: 50%;
 	display: inline;
-}
-
-h3 {
-	text-align: center;
-}
-
-h3#menu {
-	color:red;
-}
-
-button#menu {
-	color: black;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
-	background-color: #F5F5F5;
-	padding: 20px 100px 20px 100px;
-	margin: 0px 1px 0px 1px;
-	border-radius: 1px;
-	border-style: solid;
-	border-color: black;
-	border-width: 0.5px;
-	cursor: pointer;
 }
 
 footer {
