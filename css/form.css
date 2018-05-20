@@ -2,10 +2,18 @@
 
 form {
 	
+<<<<<<< HEAD
+	background-color: rgba(223,223,223,0.66);
+	width: 70%;
+	height: auto;
+	margin: 150px auto 50px auto;
+	padding: 15px 30px 15px 20px;
+=======
 	background-color: #DFDFDF;
 	width: 50%;
 	margin: 150px auto 50px auto;
 	padding: 15px 20px;
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 	
 }
 
@@ -44,6 +52,12 @@ form input[type=submit] {
 	
 }
 
+form input [type=number] {
+	
+	display: inline-block;
+	
+}
+
 form textarea {
 	
 	padding: 3px 0px 0px 5px;
@@ -65,5 +79,11 @@ img#formu {
 	
 	position: float;
 	left: 50%;
+	
+}
+
+div#tel {
+	
+	display: inline;
 	
 }

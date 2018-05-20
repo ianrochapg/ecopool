@@ -23,6 +23,28 @@ header {
 	z-index: 2;
 }
 
+<<<<<<< HEAD
+a {
+	text-decoration: none;
+}
+
+footer {
+    width: 100%; 
+    height: 80px; 
+	background-color: #383838;
+	color: white;
+	display: flex;
+	position: absolute;
+}
+
+h2.reference {
+	position: relative;
+	line-height: 50%;
+	display: inline;
+}
+
+=======
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 .main_nav {
 	display: flex;
 	position: relative;
@@ -39,6 +61,8 @@ header {
 	height: 50%;
 }
 
+<<<<<<< HEAD
+=======
 #logo img {
 	height: 140px;
     width: 130px;
@@ -47,6 +71,7 @@ header {
     margin-bottom: -25px;
 }
 
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 .link {
 	color: #ffffff;
 	-webkit-transition: color 0.25s; /* For Safari 3.1 to 6.0 */
@@ -61,30 +86,51 @@ header {
 .reference {
 	margin: 0 5px;
 	text-align: center;
+	color: white;
 }
 
 .main_section {
 	min-height: calc( 100vh - 104px);
 	width: 100%;
 	margin-top: 104px;
+<<<<<<< HEAD
+=======
 	/* background-image: url("../img/manhattan.jpg"); */
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 	background-image: url("../img/city_loop.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	display: flex;
 }
 
 .left_side {
 	width: 50%;
+<<<<<<< HEAD
+	right: 55%;
+	position: fixed;
+=======
 	/* background-color: rgba(0, 0, 0, 0.1); */
 	position: relative;
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
 .right_side {
 	width: 50%;
+<<<<<<< HEAD
+	left: 50%;
+=======
 	/* background-color: rgba(255, 255, 255, 0.2); */
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 	position: relative;
+}
+
+.text_container {
+	background-color: rgba(255,255,255,0.70);
+    margin: auto auto auto auto;
+    height: 1000px;
+
 }
 
 .action_call {
@@ -93,7 +139,7 @@ header {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	margin: auto auto auto 50px; 
+	margin: 300px auto auto 200px; 
 	width: fit-content;
 	height: fit-content;
 	color: white;
@@ -131,6 +177,42 @@ header {
 	box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
 }
 
+<<<<<<< HEAD
+.left_footer {
+	
+	width: 25%;
+	line-height: 2;
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+.text_lf {
+	color: rgba(84,183,224,1.00);
+}
+
+.left_center {
+	width: 25%;
+	line-height: 2;
+	text-align: center;
+	font-size: 12px;
+}
+.text_lc {
+	color: rgba(84,183,224,1.00);
+}
+
+.right_center {
+	
+	width: 25%;
+	line-height: 5;
+	text-align: right;
+	
+}
+
+.right_footer {
+	width: 25%;
+	line-height: 5;
+=======
 
 .form_container {
 	position: absolute;
@@ -153,12 +235,21 @@ header {
 	margin: 0 10% 30px 10%;
 	font-size: 20px;
     height: 30px;
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
-a {
-	text-decoration: none;
+.social_media .facebook {
+	height: 56px;
+    width: 56px;
+    margin-bottom: -4px;
 }
 
+<<<<<<< HEAD
+.social_media {
+	position: fixed;
+    bottom: -18px;
+    left: 76%;
+=======
 h2.reference {
 	position: relative;
 	line-height: 50%;
@@ -183,6 +274,7 @@ footer {
 	position: fixed;
     bottom: 10px;
     right: 140px;
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
 .social_media img {
@@ -190,8 +282,25 @@ footer {
 	width: 50px;
 }
 
+<<<<<<< HEAD
+#logo img {
+	height: 140px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: -15px;
+    margin-bottom: -25px;
+}
+
+#main_form input,
+#main_form label {
+	width: 80%;
+	margin: 0 10% 30px 10%;
+	font-size: 20px;
+    height: 30px;
+=======
 .social_media .facebook {
 	height: 56px;
     width: 56px;
     margin-bottom: -4px;
+>>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
