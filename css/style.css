@@ -23,7 +23,6 @@ header {
 	z-index: 2;
 }
 
-<<<<<<< HEAD
 a {
 	text-decoration: none;
 }
@@ -43,8 +42,6 @@ h2.reference {
 	display: inline;
 }
 
-=======
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 .main_nav {
 	display: flex;
 	position: relative;
@@ -61,17 +58,6 @@ h2.reference {
 	height: 50%;
 }
 
-<<<<<<< HEAD
-=======
-#logo img {
-	height: 140px;
-    width: 130px;
-    margin-left: 20px;
-    margin-top: -15px;
-    margin-bottom: -25px;
-}
-
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 .link {
 	color: #ffffff;
 	-webkit-transition: color 0.25s; /* For Safari 3.1 to 6.0 */
@@ -93,10 +79,6 @@ h2.reference {
 	min-height: calc( 100vh - 104px);
 	width: 100%;
 	margin-top: 104px;
-<<<<<<< HEAD
-=======
-	/* background-image: url("../img/manhattan.jpg"); */
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 	background-image: url("../img/city_loop.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -107,22 +89,13 @@ h2.reference {
 
 .left_side {
 	width: 50%;
-<<<<<<< HEAD
 	right: 55%;
 	position: fixed;
-=======
-	/* background-color: rgba(0, 0, 0, 0.1); */
-	position: relative;
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
 .right_side {
 	width: 50%;
-<<<<<<< HEAD
 	left: 50%;
-=======
-	/* background-color: rgba(255, 255, 255, 0.2); */
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 	position: relative;
 }
 
@@ -177,7 +150,6 @@ h2.reference {
 	box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
 }
 
-<<<<<<< HEAD
 .left_footer {
 	
 	width: 25%;
@@ -212,30 +184,6 @@ h2.reference {
 .right_footer {
 	width: 25%;
 	line-height: 5;
-=======
-
-.form_container {
-	position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto 50px auto auto;
-    width: 100%;
-    max-width: 350px;
-    height: calc( 100% - 90px);
-    max-height: 500px;
-    color: #000000;
-    background-color: #f7f7f7;
-}
-
-#main_form input,
-#main_form label {
-	width: 80%;
-	margin: 0 10% 30px 10%;
-	font-size: 20px;
-    height: 30px;
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
 .social_media .facebook {
@@ -244,37 +192,10 @@ h2.reference {
     margin-bottom: -4px;
 }
 
-<<<<<<< HEAD
 .social_media {
 	position: fixed;
     bottom: -18px;
     left: 76%;
-=======
-h2.reference {
-	position: relative;
-	line-height: 50%;
-	display: inline;
-}
-
-footer {
-    width: 100%; 
-    height: 200px; 
-	background-color: #383838;
-	color: white;
-	display: flex;
-}
-
-.left_footer,
-.center_footer,
-.right_footer {
-	width: 33.33%;
-}
-
-.social_media {
-	position: fixed;
-    bottom: 10px;
-    right: 140px;
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
 
 .social_media img {
@@ -282,7 +203,6 @@ footer {
 	width: 50px;
 }
 
-<<<<<<< HEAD
 #logo img {
 	height: 140px;
     width: 130px;
@@ -297,10 +217,4 @@ footer {
 	margin: 0 10% 30px 10%;
 	font-size: 20px;
     height: 30px;
-=======
-.social_media .facebook {
-	height: 56px;
-    width: 56px;
-    margin-bottom: -4px;
->>>>>>> febec6b1188490cb94be5b2d1ea7dfae085e16e1
 }
