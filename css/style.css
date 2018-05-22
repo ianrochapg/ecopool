@@ -169,6 +169,42 @@ h2.reference {
 	border-radius: 5px;
 }
 
+.differentials_page {
+	margin-top: 150px;
+}
+
+.differentials_title {
+	width: 100%;
+	text-align: center;
+}
+
+.differentials,
+.differentials2 {
+	padding: 5% 5% 0 5%;
+	display: flex;
+}
+
+.differentials img {
+	width: 45%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.differentials2 img {
+	width: 45%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.inside_text {
+	padding: 5%;
+	text-align: justify;
+}
+
+.last_one {
+	margin-bottom: 5%;
+}
+
 .left_footer {
 	
 	width: 25%;
