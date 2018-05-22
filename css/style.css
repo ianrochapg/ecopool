@@ -76,33 +76,33 @@ h2.reference {
 }
 
 .main_section {
-	min-height: calc( 100vh - 104px);
+	height: calc( 100vh - 104px);
 	width: 100%;
 	margin-top: 104px;
 	background-image: url("../img/city_loop.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	display: flex;
 }
 
 .left_side {
 	width: 50%;
-	right: 55%;
-	position: fixed;
+	/* right: 55%; */
+	position: relative;
 }
 
 .right_side {
 	width: 50%;
-	left: 50%;
+	/* left: 50%; */
 	position: relative;
 }
 
 .text_container {
 	background-color: rgba(255,255,255,0.70);
-    margin: auto auto auto auto;
-    height: 1000px;
+    /* margin: auto auto auto auto; */
+    /* height: 1000px; */
 
 }
 
@@ -112,7 +112,7 @@ h2.reference {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	margin: 300px auto auto 200px; 
+	margin: auto auto auto 100px; 
 	width: fit-content;
 	height: fit-content;
 	color: white;
@@ -148,6 +148,25 @@ h2.reference {
 	-webkit-box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
 	-moz-box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
 	box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
+}
+
+.advantages_sec {
+	display: flex;
+	min-height: calc( 100vh - 104px);
+}
+
+.advantages {
+	width: 33.33%;
+    padding: 5%;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.advantages img,
+.advantages h3 {
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
 }
 
 .left_footer {
