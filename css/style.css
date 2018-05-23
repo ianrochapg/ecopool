@@ -150,6 +150,8 @@ h2.reference {
 	box-shadow: 11px 11px 18px -2px rgba(0,0,0,0.75);
 }
 
+
+/*AREA 'INDEX'*/
 .advantages_sec {
 	display: flex;
 	min-height: calc( 100vh - 104px);
@@ -162,13 +164,15 @@ h2.reference {
     margin: auto 0;
 }
 
-.advantages img,
-.advantages h3 {
+.advantages img, .advantages h3 {
 	width: 100%;
 	text-align: center;
 	border-radius: 5px;
 }
+/*FIM DA AREA 'INDEX'*/
 
+
+/*AREA 'DIFERENCIAIS'*/
 .differentials_page {
 	margin-top: 150px;
 }
@@ -178,8 +182,7 @@ h2.reference {
 	text-align: center;
 }
 
-.differentials,
-.differentials2 {
+.differentials, .differentials2 {
 	padding: 5% 5% 0 5%;
 	display: flex;
 }
@@ -204,7 +207,9 @@ h2.reference {
 .last_one {
 	margin-bottom: 5%;
 }
+/*FIM DA AREA 'DIFERENCIAIS'*/
 
+/*FOOTER/REDES SOCIAIS*/
 .left_footer {
 	
 	width: 25%;
@@ -224,6 +229,7 @@ h2.reference {
 	text-align: center;
 	font-size: 12px;
 }
+
 .text_lc {
 	color: rgba(84,183,224,1.00);
 }
@@ -257,11 +263,15 @@ h2.reference {
 	height: 50px;
 	width: 50px;
 }
+/*FIM DA AREA 'FOOTER' e REDES SOCIAIS*/
 
+
+
+/*AREA 'QUEM SOMOS'*/
 .team_descp {
 	
 	display: flex;
-	min-height: calc( 100vh - 104px);
+	min-height: calc( 81vh - 104px);
 	
 }
 
@@ -303,6 +313,45 @@ h2.reference {
 	font-size: 50px;
 	
 }
+/*FIM DA ÁREA 'QUEM SOMOS'*/
+
+
+
+/*AREA 'CONTATO/MAPA'*/
+.contato_space {
+	
+	height: calc( 100vh - 104px);
+	display: flex;
+	
+}
+
+.contato_map {
+	
+	width: 500px;
+	height: 200px;
+	
+	
+}
+
+/*FIM DA AREA 'CONTATO/MAPA*/
+
+
+
+/*ÁREA PARA CRIAR BACKGROUND E SECTIONS PERSONALIZADAS*/
+.formulario {
+	
+	height: calc( 100vh - 104px);
+	width: 100%;
+	margin-top: 104px;
+	background-image: url("../img/contato_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	
+}
+
+/*FIM DA ÁREA DE BACKGROUND E SECTIONS*/
 
 #logo img {
 	height: 140px;

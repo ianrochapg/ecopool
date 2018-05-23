@@ -27,16 +27,8 @@
 				</div>
 			</nav>
 		</header>
-		<section class="main_section">
-			<div class="left_side">
-				<div class="action_call">
-					<h2 class="heading">Chame agora!</h2>
-					<p class="subheading">A primeira viagem é por nossa conta</p>
-					<button class="action_button">Veja as vantagens</button>
-				</div>
-			</div>
-			<div class="right_side">
-				<form method="post" id="fContato" action="mailto: contato@ecopool.com.br">		
+		<section class="formulario">
+				<form method="post" id="fContato">		
 					<label for="bNome"> Nome: </label>
 					<input type="text" name="aNome" id="bNome" size="40" maxlength="60" placeholder="Nome Completo"/>
 					<label for="bEmail"> Email: </label>
@@ -55,10 +47,19 @@
 					</div>
 					<label for="cMsg"> Mensagem: </label>
 					<textarea name="aMsg" id="cMsg" cols="40" rows="10" placeholder="Digite aqui a sua mensagem..."></textarea>
-					<input type="submit" value="Enviar"/>			
+					<input type="submit" value="Enviar" onClick="alert('Mensagem Enviada'); return true" target="_self"/>			
 				</form>
+		</section>
+		
+		<section class="contato_space">
+			<div class="contato_map">
+				<h3>Diretoria</h3>
+				<img src="img/network_formating.png" width="220" height="80">
+				<p>Nossa equipe conta com varios especialistas do mercado, com o objetivo de trazer para você
+				as melhores vantages e custo benefício que uma empresa de transporte poderia oferecer. </p>
 			</div>
 		</section>
+		
 		<footer>
 			<div class="left_footer">
 				Informações:
